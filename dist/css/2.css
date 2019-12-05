@@ -1,0 +1,131 @@
+
+.shopCart {
+  position: fixed;
+  top: 0;
+  bottom: 60px;
+  width: 100%;
+}
+.shopCart .shopCart-main {
+    position: absolute;
+    top: 0;
+    bottom: 40px;
+    width: 100%;
+    overflow-y: auto;
+}
+.shopCart .shopCart-main .shopCart-title {
+      padding-left: 10px;
+      font-size: 14px;
+      line-height: 40px;
+      color: #fff;
+      background-color: #1296db;
+}
+.shopCart .shopCart-main .shopCart-remind img {
+      display: block;
+      width: 100%;
+}
+.shopCart .shopCart-main .goods-list li {
+      position: relative;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      width: 100%;
+      border-bottom: 1px solid #ddd;
+}
+.shopCart .shopCart-main .goods-list li .choose-icon {
+        padding: 0 6px;
+        color: #1296db;
+}
+.shopCart .shopCart-main .goods-list li img {
+        margin: 4px 10px;
+        width: 40px;
+        height: 41px;
+        border-radius: 50%;
+}
+.shopCart .shopCart-main .goods-list li .name {
+        width: 80px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+.shopCart .shopCart-main .goods-list li .price {
+        margin-left: 10px;
+        color: #e8380d;
+}
+.shopCart .shopCart-main .goods-list li .price .single {
+          margin-top: 8px;
+          line-height: 20px;
+}
+.shopCart .shopCart-main .goods-list li .price .all {
+          line-height: 20px;
+}
+.shopCart .shopCart-main .goods-list li .add {
+        position: absolute;
+        top: 50%;
+        right: 60px;
+        transform: translateY(-50%);
+}
+.shopCart .shopCart-main .goods-list li .add span {
+          float: left;
+}
+.shopCart .shopCart-main .goods-list li .add span .fa-icon {
+            padding: 2px;
+            color: #fff;
+            background-color: #1296db;
+            border-radius: 50%;
+}
+.shopCart .shopCart-main .goods-list li .add span.none .fa-icon {
+            background-color: #eee;
+}
+.shopCart .shopCart-main .goods-list li .add span.num {
+            margin: 0 6px;
+            line-height: 20px;
+            font-size: 14px;
+}
+.shopCart .shopCart-main .goods-list li .remove {
+        position: absolute;
+        top: 0;
+        bottom: -1px;
+        right: 0;
+        width: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: #fff;
+        background-color: #e8380d;
+}
+.shopCart .total {
+    position: absolute;
+    z-index: 2;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+.shopCart .total .choose-icon {
+      padding: 0 6px;
+      color: #1296db;
+}
+.shopCart .total .content {
+      margin-left: 10px;
+      width: 100%;
+      line-height: 40px;
+}
+.shopCart .total .content .price {
+        margin-left: 10px;
+        font-size: 14px;
+        color: #e8380d;
+}
+.shopCart .total .content .order {
+        float: right;
+        width: 50%;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        background-color: #e8380d;
+}
+

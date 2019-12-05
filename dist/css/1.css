@@ -1,0 +1,85 @@
+
+.user {
+  position: fixed;
+  top: 0;
+  bottom: 60px;
+  width: 100%;
+  overflow-y: auto;
+}
+.user .title {
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #1296db;
+}
+.user .info img {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.user .info .name {
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-left: 40px;
+    height: 100px;
+}
+.user .info .name a {
+      display: block;
+      font-size: 16px;
+      line-height: 30px;
+      color: #000;
+}
+.user .order-list {
+    padding-top: 10px;
+}
+.user .order-list p {
+      padding-left: 20px;
+      font-size: 14px;
+      line-height: 40px;
+      background-color: #fff;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+}
+.user .order-list .remind {
+      padding-left: 20px;
+      font-size: 14px;
+      line-height: 40px;
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+}
+.user .order-list .remind .toShop {
+        margin-right: 20px;
+        float: right;
+        font-weight: bold;
+        color: #e8380d;
+}
+.user .order-list .remind .toShop .fa-icon {
+          float: right;
+          margin-left: 6px;
+          margin-top: 12px;
+}
+.user .order-list .list .list-item {
+      padding-left: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 36px;
+      color: #2f2f2f;
+      border-bottom: 1px solid #ddd;
+}
+.user .order-list .list .list-item .checkOrder {
+        float: right;
+}
+.user .order-list .list .list-item .checkOrder .fa-icon {
+          float: right;
+          margin-right: 10px;
+          margin-top: 12px;
+}
+.user .order-list .list .list-item .order-detail li {
+        font-weight: normal;
+        line-height: 20px;
+        color: #1296db;
+}
+
